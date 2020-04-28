@@ -34,8 +34,8 @@ public class AppTest
         WebElement linkToPictures = driver.findElement(By.partialLinkText("Images for starter pokemon"));
         linkToPictures.click();
         sleep(1000);
-        WebElement imagesLink = driver.findElement(By.className("rg_i Q4LuWd tx8vtf"));
-        sleep(1000);
+        //WebElement imagesLink = driver.findElement(By.className("rg_i Q4LuWd tx8vtf"));
+        //sleep(1000);
     }
 
     @After
